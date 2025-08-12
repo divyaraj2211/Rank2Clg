@@ -1,0 +1,200 @@
+/* ---------------- Navbar ---------------- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #3b82f6, #2563eb);
+  padding: 10px 40px;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar ul li {
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar ul li:hover {
+  color: #ffe082;
+}
+
+/* ---------------- Page Container ---------------- */
+.cf-container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.cf-title {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* ---------------- Mode Switch Buttons ---------------- */
+.cf-mode-switch {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.cf-btn {
+  background: #e5e7eb;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.cf-btn:hover {
+  background: #d1d5db;
+}
+
+.cf-btn.active {
+  background: #2563eb;
+  color: #fff;
+}
+
+/* ---------------- Input Fields ---------------- */
+.cf-inputs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.cf-inputs select,
+.cf-inputs input {
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.cf-inputs select:focus,
+.cf-inputs input:focus {
+  border: 1px solid #2563eb;
+}
+
+.cf-btn.primary {
+  background: #2563eb;
+  color: white;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+.cf-btn.primary:hover {
+  background: #1d4ed8;
+}
+
+/* ---------------- Results Cards ---------------- */
+.cf-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  border: 1px solid #e5e7eb;
+}
+
+.cf-card-left h3 {
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+  color: #2563eb;
+}
+
+.cf-card-right {
+  display: flex;
+  align-items: center;
+  border-left: 1px solid #e5e7eb;
+  padding-left: 20px;
+}
+
+.rank-column {
+  padding: 0 15px;
+  border-left: 1px solid #e5e7eb;
+  text-align: center;
+}
+
+.rank-column:first-child {
+  border-left: none;
+}
+
+.rank-column strong {
+  color: #2563eb;
+}
+
+.highlight-col {
+  background: #fff4d6;
+  border-radius: 4px;
+}
+.highlight-col strong {
+  color: #d97706;
+}
+
+.cf-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+.chance {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  background: #ecfdf5;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  color: #059669;
+  font-weight: 600;
+}
+
+.cf-pagination button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.cf-pagination button:hover:not(:disabled) {
+  background: #1d4ed8;
+}
+
+.cf-pagination button:disabled {
+  background: #93c5fd;
+  cursor: not-allowed;
+}
+
+.cf-pagination span {
+  font-weight: bold;
+  font-size: 1rem;
+}
