@@ -10,7 +10,6 @@ Built using **React.js**, **Node.js**, **Express**, **MongoDB**, and **Machine L
 - 🔍 **Search & Filter Colleges** by name, course, and category.
 - 📊 **Cutoff Data** for multiple years (2020–2024) with **Predicted 2025 Rank**.
 - ⭐ **Bookmark Colleges** for quick access.
-- 📈 **Cutoff Trends Graph** (view historical changes).
 - 🖥️ Fully responsive and modern UI.
 - ⚡ Fast API built with **Express.js** and MongoDB.
 
@@ -35,5 +34,4 @@ Built using **React.js**, **Node.js**, **Express**, **MongoDB**, and **Machine L
 
 ---
 
-## 📂 Project Structure
 
